@@ -129,7 +129,7 @@ def update_graph(selected_region):
         )
     )
     
-    fig.update_traces(line=dict(width=3, color=colors['accent']), marker=dict(size=6))
+    fig.update_traces(line=dict(width=1, color=colors['accent']), marker=dict(size=6))
     
     return fig
 
